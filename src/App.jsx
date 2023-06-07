@@ -3,6 +3,7 @@ import illustration from './assets/images/illustration-working.svg';
 import Features from './components/Features';
 import boostDesktop from './assets/images/desktop/bg-boost-desktop.svg';
 import boostMobile from './assets/images/mobile/bg-boost-mobile.svg';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
