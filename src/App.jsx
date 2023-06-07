@@ -1,5 +1,6 @@
 import Nav from './components/Nav';
 import illustration from './assets/images/illustration-working.svg';
+import Features from './components/Features';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
             </button>
           </header>
         </section>
+
+        <Features />
       </main>
     </div>
   );
