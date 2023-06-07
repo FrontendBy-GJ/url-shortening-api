@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/url-shortening-api-FyaTeFG779)
+- [Live Site](https://garcia-jr-url-shortening-api.netlify.app/)
 
 ## My process
 
