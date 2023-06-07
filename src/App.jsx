@@ -42,9 +42,11 @@ function App() {
               className="h-full w-full object-cover"
             />
           </picture>
-          <div className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 space-y-5 text-center font-Poppins text-white">
-            <h3 className="text-2xl font-bold">Boost your links today</h3>
-            <button className="relative rounded-full bg-Primary-cyan px-10 py-3 text-xl after:absolute after:inset-0 after:-z-10 after:rounded-full after:bg-white hover:bg-opacity-60">
+          <div className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 space-y-5 text-center font-Poppins text-white xl:space-y-10">
+            <h3 className="text-2xl font-bold xl:text-4xl">
+              Boost your links today
+            </h3>
+            <button className="relative rounded-full bg-Primary-cyan px-10 py-3 after:absolute after:inset-0 after:-z-10 after:rounded-full after:bg-white hover:bg-opacity-60 xl:text-xl">
               Get Started
             </button>
           </div>
