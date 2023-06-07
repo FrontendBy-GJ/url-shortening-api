@@ -14,6 +14,7 @@ const Nav = () => {
         <AiOutlineMenu
           aria-label="Open menu"
           aria-expanded={openMobileNav}
+          role="button"
           onClick={() => setOpenMobileNav((prev) => !prev)}
           className="aspect-square h-full w-7 cursor-pointer text-Neutral-grayViolet"
         />
