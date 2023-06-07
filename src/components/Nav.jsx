@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import logo from '../assets/images/logo.svg';
 import { AiOutlineMenu } from 'react-icons/ai';
+import Logo from '../assets/images/Logo';
 
 const links = ['Features', 'Pricing', 'Resources'];
 
@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <header className="mx-auto flex max-w-7xl items-center justify-between px-5 pb-4 pt-8 font-Poppins">
-      <img src={logo} alt="Shortly logo" />
+      <Logo />
       <div className="relative md:hidden">
         <AiOutlineMenu
           aria-label="Open menu"
