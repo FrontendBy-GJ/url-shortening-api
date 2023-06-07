@@ -1,6 +1,8 @@
 import Nav from './components/Nav';
 import illustration from './assets/images/illustration-working.svg';
 import Features from './components/Features';
+import boostDesktop from './assets/images/desktop/bg-boost-desktop.svg';
+import boostMobile from './assets/images/mobile/bg-boost-mobile.svg';
 
 function App() {
   return (
@@ -29,6 +31,23 @@ function App() {
         </section>
 
         <Features />
+
+        <div className="relative bg-Primary-violet">
+          <picture>
+            <source media="(min-width: 768px)" srcSet={boostDesktop} />
+            <img
+              src={boostMobile}
+              alt=""
+              className="h-full w-full object-cover"
+            />
+          </picture>
+          <div className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 space-y-5 text-center font-Poppins text-white">
+            <h3 className="text-2xl font-bold">Boost your links today</h3>
+            <button className="relative rounded-full bg-Primary-cyan px-10 py-3 text-xl after:absolute after:inset-0 after:-z-10 after:rounded-full after:bg-white hover:bg-opacity-60">
+              Get Started
+            </button>
+          </div>
+        </div>
       </main>
     </div>
   );
